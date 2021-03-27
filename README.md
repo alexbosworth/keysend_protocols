@@ -24,7 +24,7 @@ Send a text message to a destination.
 - `34349337`: Message Signature Bytes
 - `34349339`: Message Signer Public Key Bytes
 - `34349343`: Epoch Time In Nanoseconds, Big-Endian Encoded
-- `5482373481`: 32 Byte keysend id to group multiple inccoming payments by it (payee is supposed to provide this id beforehand).
+- `5482373481`: 32 Byte keysend id to group multiple incoming payments by it (payee is supposed to provide this id beforehand).
 - `5482373484`: 32 Byte Preimage Corresponding to HTLC Preimage Hash
 
 ## KeySend-Protocol-3 Ping
